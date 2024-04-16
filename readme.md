@@ -2,19 +2,23 @@
 
 ![Terminal](https://github.com/anav5704/terminal-config/blob/main/images/terminal.png)
 
-> Background image is [here](https://github.com/anav5704/terminal-config/blob/main/images/background.jpg).
+Background image is [here](https://github.com/anav5704/terminal-config/blob/main/images/background.jpg).
 
-# Icons
+## Icons
+
+| PowerShell| Ubuntu | Git Bash |
+|----------|----------|----------|
+|![PowerShell](https://github.com/anav5704/terminal-config/blob/main/images/powershell-lg.png)|![Ubuntu](https://github.com/anav5704/terminal-config/blob/main/images/ubuntu-lg.png)|![Git Bash](https://github.com/anav5704/terminal-config/blob/main/images/git-bash-lg.png)|
 
 Made myself some custom shell icons to match the pink oh-my-posh theme
 
-# Neovim
+## Neovim
 
 ![Terminal](https://github.com/anav5704/terminal-config/blob/main/images/nvim.png)
 
-My current setup is pretty light, having just a few important plugins:
+Neovim theme is [here](ryanpcmcquen/true-monochrome_vim)
 
-> Neovim theme is [here](ryanpcmcquen/true-monochrome_vim)
+My current setup is pretty light, having just a few important plugins:
 
 - LazyGit
 - Telescope
@@ -24,11 +28,11 @@ My current setup is pretty light, having just a few important plugins:
 - Bufferline
 - File Tree
 
-# Oh My Posh
+## Oh My Posh
 
 Posh theme is [here](https://github.com/anav5704/terminal-config/blob/main/oh-my-posh/pretty-pink.omp.json). Credit: the theme I use is a variation of [Hunk](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/hunk.omp.json).
 
-## Powershell
+### Powershell
 
 ```
 Notepad $PROFILE
@@ -38,7 +42,7 @@ Notepad $PROFILE
 oh-my-posh init pwsh --config <path to theme> | Invoke-Expression
 ```
 
-## Git Bash
+### Git Bash
 
 ```
 nvim ~/.bashrc
@@ -48,7 +52,7 @@ nvim ~/.bashrc
 eval "$(oh-my-posh init bash --config <path to theme>)"
 ```
 
-## WSL Ubuntu
+### WSL Ubuntu
 
 ```
 nvim ~/.bashrc
