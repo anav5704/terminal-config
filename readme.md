@@ -6,11 +6,11 @@ Background image is [here](https://github.com/anav5704/terminal-config/blob/main
 
 ## Icons
 
+Made myself some custom shell icons to match the pink oh-my-posh theme
+
 | PowerShell| Ubuntu | Git Bash |
 |----------|----------|----------|
 |![PowerShell](https://github.com/anav5704/terminal-config/blob/main/images/powershell-lg.png)|![Ubuntu](https://github.com/anav5704/terminal-config/blob/main/images/ubuntu-lg.png)|![Git Bash](https://github.com/anav5704/terminal-config/blob/main/images/git-bash-lg.png)|
-
-Made myself some custom shell icons to match the pink oh-my-posh theme
 
 ## Neovim
 
