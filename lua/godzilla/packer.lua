@@ -1,4 +1,4 @@
-vim.cmd [[packadd packer.nvim]]
+ im.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
     use("wbthomason/packer.nvim")
@@ -8,8 +8,13 @@ return require('packer').startup(function(use)
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
 
-    use { ("ryanpcmcquen/true-monochrome_vim"), config = function()
-        vim.cmd 'colorscheme true-monochrome'
+    -- use { ("ryanpcmcquen/true-monochrome_vim"), config = function()
+        --      vim.cmd 'colorscheme true-monochrome'
+        --  end }
+
+    
+    use { ("morhetz/gruvbox"), config = function()
+        vim.cmd 'colorscheme gruvbox'
     end }
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
@@ -30,6 +35,8 @@ return require('packer').startup(function(use)
             ("nvim-tree/nvim-web-devicons"),
         },
     }
+
+    use 'karb94/neoscroll.nvim'
 
     use({
         "kdheepak/lazygit.nvim",
