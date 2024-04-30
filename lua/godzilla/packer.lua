@@ -1,4 +1,4 @@
- im.cmd [[packadd packer.nvim]]
+ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
     use("wbthomason/packer.nvim")
@@ -36,7 +36,8 @@ return require('packer').startup(function(use)
         },
     }
 
-    use 'karb94/neoscroll.nvim'
+    use ("karb94/neoscroll.nvim")
+    use ("vim-airline/vim-airline")
 
     use({
         "kdheepak/lazygit.nvim",
