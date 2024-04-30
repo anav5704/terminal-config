@@ -1,5 +1,6 @@
 vim.g.mapleader = " "
 
+vim.keymap.set('n', '<leader>t', ':TodoTelescope<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>g', ':LazyGit<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>q', ':bd<CR>', { noremap = true, silent = true })

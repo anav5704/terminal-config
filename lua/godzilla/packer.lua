@@ -36,8 +36,16 @@ return require('packer').startup(function(use)
         },
     }
 
+    use {
+        ("folke/todo-comments.nvim"),
+        requires = {
+            ("nvim-lua/plenary.nvim"),
+        },
+    }
+
     use ("karb94/neoscroll.nvim")
     use ("vim-airline/vim-airline")
+    use ("folke/trouble.nvim")
 
     use({
         "kdheepak/lazygit.nvim",
