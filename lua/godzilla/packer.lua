@@ -43,6 +43,11 @@ return require('packer').startup(function(use)
         },
     }
 
+    use {
+        "eoh-bse/minintro.nvim",
+        config = function() require("minintro").setup({ color = "#a89984" }) end
+    }
+
     use ("karb94/neoscroll.nvim")
     use ("vim-airline/vim-airline")
     use ("folke/trouble.nvim")

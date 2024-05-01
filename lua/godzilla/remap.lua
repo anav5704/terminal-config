@@ -16,5 +16,5 @@ vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
-vim.keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>") 
-vim.keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>")
+vim.keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>", { noremap = true, silent = true }) 
+vim.keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>", { noremap = true, silent = true })
