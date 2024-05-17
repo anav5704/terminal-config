@@ -4,6 +4,7 @@ vim.keymap.set('n', '<leader>t', ':TodoTelescope<CR>', { noremap = true, silent 
 vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>g', ':LazyGit<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>q', ':bd<CR>', { noremap = true, silent = true })
+vim.keymap.set("n", "<S-u>", "<C-r>", { noremap = true, silent = true })
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")

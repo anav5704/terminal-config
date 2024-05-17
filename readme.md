@@ -25,8 +25,10 @@ My current setup is pretty light, having just a few important plugins:
 - TermToggle
 - Treesitter
 - Auto Pairs
+- Airline
 - Bufferline
 - File Tree
+- Smooth Scrolling
 
 ## Oh My Posh
 
