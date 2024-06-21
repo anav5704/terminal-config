@@ -1,25 +1,12 @@
 # My Terminal Config
 
-![Terminal](https://github.com/anav5704/terminal-config/blob/main/images/terminal.png)
-
-Background image is [here](https://github.com/anav5704/terminal-config/blob/main/images/background.jpg).
-
-## Icons
-
-Made myself some custom shell icons to match the pink oh-my-posh theme
-
-| PowerShell| Ubuntu | Git Bash |
-|----------|----------|----------|
-|![PowerShell](https://github.com/anav5704/terminal-config/blob/main/images/powershell-lg.png)|![Ubuntu](https://github.com/anav5704/terminal-config/blob/main/images/ubuntu-lg.png)|![Git Bash](https://github.com/anav5704/terminal-config/blob/main/images/git-bash-lg.png)|
+- ![Neovim](https://github.com/anav5704/terminal-config/blob/main/images/neovim.png)
 
 ## Neovim
 
-![Terminal](https://github.com/anav5704/terminal-config/blob/main/images/nvim.png)
-
-Neovim theme is [here](ryanpcmcquen/true-monochrome_vim)
-
 My current setup is pretty light, having just a few important plugins:
 
+- Gruvbox
 - LazyGit
 - Telescope
 - TermToggle
@@ -32,7 +19,8 @@ My current setup is pretty light, having just a few important plugins:
 
 ## Oh My Posh
 
-Posh theme is [here](https://github.com/anav5704/terminal-config/blob/main/oh-my-posh/pretty-pink.omp.json). Credit: the theme I use is a variation of [Hunk](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/hunk.omp.json).
+- [Minimal Windows Theme](https://github.com/anav5704/terminal-config/blob/main/oh-my-posh/windows.omp.json)
+- [Minimal Ubuntu Theme](https://github.com/anav5704/terminal-config/blob/main/oh-my-posh/ubuntu.omp.json)
 
 ### Powershell
 
