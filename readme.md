@@ -1,6 +1,6 @@
 # My Terminal Config
 
-- ![Neovim](https://github.com/anav5704/terminal-config/blob/main/images/neovim.png)
+![Neovim](https://github.com/anav5704/terminal-config/blob/main/images/neovim.png)
 
 ## Neovim
 
