@@ -3,7 +3,6 @@
     "palette": {
         "accent": "#357EC7"
     },
-    "terminal_background": "p:background",
     "console_title_template": "{{ .UserName }}@{{ .HostName }}",
     "blocks": [
         {

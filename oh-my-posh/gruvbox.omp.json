@@ -1,7 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
     "palette": {
-        "accent": "#E95420"
+        "accent": "#B8BB26",
+        "highlight": "#FB4934"
     },
     "console_title_template": "{{ .UserName }}@{{ .HostName }}",
     "blocks": [
@@ -11,7 +12,7 @@
             "segments": [
                 {
                     "style": "plain",
-                    "template": "{{ .UserName }}@{{ .HostName }} ",
+                    "template": "<p:highlight>{{ .UserName }}@{{ .HostName }}</> ",
                     "type": "session"
                 },
                 {

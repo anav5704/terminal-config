@@ -21,6 +21,7 @@ My current setup is pretty light, having just a few important plugins:
 
 - [Minimal Windows Theme](https://github.com/anav5704/terminal-config/blob/main/oh-my-posh/windows.omp.json)
 - [Minimal Ubuntu Theme](https://github.com/anav5704/terminal-config/blob/main/oh-my-posh/ubuntu.omp.json)
+- [Custom Gruvbox Theme](https://github.com/anav5704/terminal-config/blob/main/oh-my-posh/gruvbox.omp.json)
 
 ### Powershell
 
