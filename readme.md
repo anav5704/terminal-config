@@ -16,8 +16,12 @@ My current setup is pretty light, having just a few important plugins:
 - Bufferline
 - File Tree
 - Smooth Scrolling
+- Tmux navigation
+- Dressing
 
 ## Oh My Posh
+
+![Oh-My-Posh](https://github.com/anav5704/terminal-config/blob/main/images/oh-my-posh.png)
 
 - [Minimal Windows Theme](https://github.com/anav5704/terminal-config/blob/main/oh-my-posh/windows.omp.json)
 - [Minimal Ubuntu Theme](https://github.com/anav5704/terminal-config/blob/main/oh-my-posh/ubuntu.omp.json)
