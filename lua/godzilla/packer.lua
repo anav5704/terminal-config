@@ -66,4 +66,5 @@ return require('packer').startup(function(use)
     end}
 
     use {'christoomey/vim-tmux-navigator'}
+    use {'stevearc/dressing.nvim'}
 end)
