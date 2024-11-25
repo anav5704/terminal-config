@@ -19,8 +19,8 @@ return require('packer').startup(function(use)
     use("hrsh7th/cmp-nvim-lsp")
     use("hrsh7th/cmp-buffer")
     use("hrsh7th/cmp-path")
-    use("hrsh7th/cmp-cmdline")
     use("hrsh7th/nvim-cmp")
+    use("hrsh7th/cmp-cmdline")
     use("hrsh7th/vim-vsnip-integ")
     use("hrsh7th/vim-vsnip")
 
@@ -43,7 +43,6 @@ return require('packer').startup(function(use)
         config = function() require("minintro").setup({ color = "#a89984" }) end
     }
 
-    use ("karb94/neoscroll.nvim")
     use ("vim-airline/vim-airline")
     use ("folke/trouble.nvim")
 
@@ -67,4 +66,6 @@ return require('packer').startup(function(use)
 
     use {'christoomey/vim-tmux-navigator'}
     use {'stevearc/dressing.nvim'}
+
+    use("github/copilot.vim")
 end)
